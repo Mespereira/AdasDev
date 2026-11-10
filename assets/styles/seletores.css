@@ -1,0 +1,109 @@
+a{
+    color: rgb(66, 3, 66);
+    background-color:  rgb(238, 164, 238);
+}
+
+#link_google{
+    color: rgb(61, 61, 226);
+    background-color: rgb(190, 190, 245);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#link_orkut{
+    color: rgb(165, 8, 100);
+    background-color: rgb(233, 196, 219);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+#link_orkut, #link_google{
+    border-radius: 5px;
+}
+
+.imagem_logo{
+    height: 100px;
+}
+
+#imagem_gta{
+    height: 110px;
+}
+
+button{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ffffff;
+    border-style: solid;
+    height: 25px;
+}
+
+.primary{
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.primary:hover{
+    cursor: pointer;
+    background-color: #0b5ed7;
+    border-color: #0b5ed7;
+}
+
+.success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.success:hover{
+    cursor: pointer;
+    background-color: #157347;
+    border-color: #157347;
+}
+
+.warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+
+}
+
+.warning:hover{
+    cursor: pointer;
+    background-color:#ffca2c ;
+    border-color: #ffca2c;
+}
+
+.danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.danger:hover{
+    cursor: pointer;
+    background-color: #bb2d3b ;
+    border-color: #bb2d3b;
+}
+
+.animacao{
+    transition-duration: 1s;
+}
+
+.animacao_success {
+    transform: translateX(120px) translateY(120px);
+}
+
+.animacao_success:hover{
+    transform: translateX(0px) translateY(0px);
+    border-color: #157347;
+}
+
+.animacao_warning:hover {
+    transform: scaleY(1.2) scaleX(1.2);
+}
+
+.animacao_danger:hover{
+    transition-duration: 6s;
+    transform: rotate(360deg);
+}
+ 
