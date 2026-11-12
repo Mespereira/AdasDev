@@ -1,0 +1,72 @@
+/* Por padrão div tem display block, isso significa que ele ocupa "toda" a linha */
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url(../img/DWa1Uy.webp);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.caixa div{
+    width: 75px;
+    height: 75px;
+    /* block: Define o elemento como um bloco, ocupando 
+    toda a largura disponivel e iniciando uma nova linha */
+}
+
+.azul{
+    background-color: rgb(142, 182, 196);
+    /*Faz com que o ocupe o tamanho minimo, considerando o width*/
+    display: inline-block; 
+}
+
+.verde{
+    background-color: rgb(124, 235, 166);
+    display: inline-block;
+}
+
+.vermelho{
+    background-color: rgb(228, 54, 54);
+    /*Ocultar div vermelha*/
+    display: none; 
+}
+
+.roxo{
+    background-color: rgb(214, 130, 240);
+    display: inline;
+}
+
+.rosa{
+    background-color: rgb(241, 146, 210);
+     /* display padrão */
+    display: block; 
+}
+.amarelo{
+    background-color: rgb(240, 241, 141);
+     /* display padrão */
+    display: inline-block; 
+    opacity: 0;
+}
+
+.cinza{
+    background-color: rgb(95, 95, 95);
+     /* display padrão */
+    display: inline-block; 
+    opacity: 0.5;
+}
+
+.preto{
+    background-color: rgb(0, 0, 0);
+    color: white;
+     /* display padrão */
+    display: inline-block; 
+}
+
+
+
+
+
